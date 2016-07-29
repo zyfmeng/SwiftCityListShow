@@ -13,7 +13,7 @@ class ThirdViewController: BaseADViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "搜索"
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.purpleColor()
     }
 
     override func didReceiveMemoryWarning() {
