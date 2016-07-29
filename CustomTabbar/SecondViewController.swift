@@ -14,7 +14,7 @@ class SecondViewController: BaseADViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "活动信息"
-        
+        self.view.backgroundColor = UIColor.whiteColor()
         
     }
    
